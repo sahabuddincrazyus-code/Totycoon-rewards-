@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopTycoon - Play & Win Rewards!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1e1b4b, #312e81, #4338ca);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .badge {
+            background: #f59e0b;
+            color: #000;
+            font-weight: bold;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .app-icon {
+            width: 110px;
+            height: 110px;
+            background: #6366f1;
+            border-radius: 22px;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            font-size: 50px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        p.description {
+            font-size: 15px;
+            color: #e0e7ff;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .steps {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            padding: 15px;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .step-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .step-number {
+            background: #10b981;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .btn-download {
+            display: block;
+            background: linear-gradient(45deg, #10b981, #059669);
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 16px 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.4);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.6);
+        }
+
+        .btn-download:active {
+            transform: translateY(0);
+        }
+
+        .device-info {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #93c5fd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <span class="badge">Limited Offer</span>
+        
+        <div class="app-icon">
+            🎮 <!-- আপনি চাইলে এখানে আপনার অ্যাপের লোগো/ছবি বসাতে পারেন -->
+        </div>
+
+        <h1>TopTycoon</h1>
+        <p class="description">ইনস্টল করুন এবং এখনই গেমটি খেলা শুরু করে আপনার রিওয়ার্ড দাবি করুন!</p>
+
+        <div class="steps">
+            <div class="step-item">
+                <div class="step-number">1</div>
+                <div>নিচের <b>"Install & Open"</b> বাটনে ক্লিক করুন।</div>
+            </div>
+            <div class="step-item">
+                <div class="step-number">2</div>
+                <div>অ্যাপটি আপনার ডিভাইসে ইনস্টল করুন।</div>
+            </div>
+            <div class="step-item">
+                <div class="step-number">3</div>
+                <div>অ্যাপটি ওপেন করে কয়েক সেকেন্ড ব্যবহার করুন।</div>
+            </div>
+        </div>
+
+        <!-- আপনার এফিলিয়েট বা অফার লিঙ্কটি href-এর জায়গায় বসিয়ে দিন -->
+        <a href="https://unlock-content.net/?3a10f95" class="btn-download">
+            Install and Open TopTycoon
+        </a>
+
+        <div class="device-info">
+            📱 Compatible with iPhone, iPad & Mobile Devices
+        </div>
+    </div>
+
+</body>
+</html>
